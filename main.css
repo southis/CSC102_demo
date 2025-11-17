@@ -12,6 +12,10 @@ body {
 
 }
 
+
+
+
+
 nav {
 
   height: 600px;
@@ -50,39 +54,39 @@ nav a:hover {
 
 
 
+/
+
 header {
-  
+
   background-color: #dcdcdc;
- 
+
   padding: 20px 0;
- 
-  text-align: center;
- 
-  width: 100%;
-  
-  box-sizing: border-box;
-  
-  overflow: hidden;
-  
+
+  text-align: left; 
+
+  padding-left: 20px; /
+
 }
 
+
+
 header h1 {
-  
+
   margin: 0;
 
   padding: 0;
 
 }
 
-p {
 
-  text-align: center;
-
-}
 
 #memeImage {
 
-  max-width: 80%; 
+  display: block;
+
+  margin: 0 auto 20px auto; 
+
+  max-width: 80%;
 
   height: auto;
 
@@ -92,21 +96,33 @@ p {
 
 
 
+.content {
+
+  margin-left: 220px; 
+
+  padding: 10px;
+
+  text-align: center; 
+
+}
+
+
+
+
+
 footer {
 
-  text-align: center;
+  text-align: left;
 
-  margin-right: 200px;
+  margin-left: 220px; 
 
   padding: 15px 0;
 
   background-color: #dcdcdc;
 
-  clear: both; 
+  clear: both;
 
 }
-
-
 
 
 
@@ -118,16 +134,10 @@ h1, h2 {
 
 
 
+
+
 ul {
 
   padding-left: 20px;
-
-}
-
-.content {
-
-  margin-left: 220px; 
-
-  padding: 10px;
 
 }
