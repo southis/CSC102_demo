@@ -1,109 +1,89 @@
-/*
+// -------------------------------------------------------
 
-code.js
+// Function: startDuel()
 
-Created by: Imena Shepherd
+// Purpose: Runs the duel game when the form is submitted.
 
-Purpose: Implements the Strength Duel game.
+// -------------------------------------------------------
 
-*/ 
-
-/* Function: playGame ()
-
-Called when the form is submitted.
-
-Uses random numbers, math, conditionals, and updates the page with innerHTML.
-
-/*
-
-function playGame () {
-
- // Get the player's strength from the HTML input field
-
-    let playerStrength = parseInt(document.getElementById("playerStrength").value);
+function startDuel() {
 
 
 
-    // Generate a random opponent strength from 1–100
+    // Get the player's chosen strength from the form input
+
+    let playerStrength = Number(document.getElementById("playerStrength").value);
+
+
+
+    // Random opponent strength between 1 and 100
 
     let opponentStrength = Math.floor(Math.random() * 100) + 1;
 
 
 
-    // Use the second function to calculate "duel intensity"
+    // Call the second function to determine victory
 
-    let intensity = calculateIntensity(playerStrength);
-
-
-
-    // Compare strengths to determine the winner
-
-    let resultMessage = "";
+    let message = determineOutcome(playerStrength, opponentStrength);
 
 
 
-    if (playerStrength > opponentStrength) {
+    // Output the results to the web page using innerHTML
 
-        resultMessage = "<strong>You win!</strong> Your strength overpowered your opponent.";
+    document.getElementById("results").innerHTML =
 
-    } 
+        "<strong>Your Strength:</strong> " + playerStrength + "<br>" +
 
-    else if (playerStrength < opponentStrength) {
+        "<strong>Opponent Strength:</strong> " + opponentStrength + "<br><br>" +
 
-        resultMessage = "<strong>You lose!</strong> The opponent was stronger this time.";
+        message;
 
-    } 
+}
 
-    else {
 
-        resultMessage = "<strong>It's a tie.</strong> Equal power met in the arena.";
+
+
+
+
+
+// -------------------------------------------------------
+
+// Function: determineOutcome(player, opponent)
+
+// Purpose: Accepts two parameters and returns the duel result.
+
+// -------------------------------------------------------
+
+function determineOutcome(player, opponent) {
+
+
+
+    // If your strength is greater, you win
+
+    if (player > opponent) {
+
+        return " Victory. You stood firm when it mattered.";
 
     }
 
 
 
-    // Add a tiny philosophical line (light & safe)
+    // If the opponent is stronger, you lose
 
-    let philosophy = `"Strength is revealed only when tested."`;
+    else if (player < opponent) {
 
+        return " Defeat. Even the strongest fall when caution is ignored.";
 
-
-    // Output everything to the HTML page (REQUIREMENT)
-
-document.getElementById("gameOutput").innerHTML =
-
-        "<h3>Duel Results</h3>" +
-
-        "Your Strength: " + playerStrength + "<br>" +
-
-        "Opponent Strength: " + opponentStrength + "<br>" +
-
-        "Duel Intensity: " + intensity + "<br><br>" +
-
-        resultMessage + "<br><br>" +
-
-        philosophy;
+    }
 
 
 
-    // Return false so the form does NOT refresh the page
+    // Equal strength – a perfect tie
 
-    return false;
+    else {
+
+        return " A tie. Two forces in perfect balance.";
+
+    }
 
 }
-
-/*
-Function: calculateIntensity (value)
-Accepts a parameter (player strength)
-Performs a simple math equation
-Returns the result
-*/
-
-function calculateIntensity(value) {
-
-// Example calculation: intensity is 1.5x the player's strength
-
-return value * 1.5;
-
-}
- 
