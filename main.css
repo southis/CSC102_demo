@@ -1,10 +1,17 @@
+
+
+ 
+Imena Dreamer <imenadreamer@gmail.com>
+1:11 AM (0 minutes ago)
+to me
+
 body {
 
-  background-color: #2c2c2c; /* sleek grey */
+  background-color: #2c2c2c; 
 
-  color: #8b0000; /* dark red text */
+  color: #8b0000; /
 
-  font-family: Arial, sans-serif; /* consistent readable font */
+  font-family: Arial, sans-serif; 
 
   margin: 0;
 
@@ -26,21 +33,17 @@ nav {
 
   line-height: 30px;
 
-  background-color: #1f1f1f; /* subtle darker grey to distinguish nav */
+  background-color: #1f1f1f;
 
-  color: #8b0000; /* match body text */
+  color: #8b0000;
 
 }
-
-
 
 
 
 footer {
 
   text-align: center;
-
-  margin-right: 200px;
 
   padding: 10px;
 
@@ -54,41 +57,13 @@ footer {
 
 #memeImage {
 
-  margin-right: 200px;
-
   display: block;
+
+  margin: 0 auto; 
 
   max-width: 100%;
 
   height: auto;
-
-}
-
-
-
-header {
-
-  text-align: center;
-
-  padding: 20px;
-
-}
-
-
-
-a {
-
-  color: #8b0000; 
-
-  text-decoration: none;
-
-}
-
-
-
-a:hover {
-
-  text-decoration: underline;
 
 }
 
