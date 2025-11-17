@@ -10,11 +10,13 @@ body {
 
   padding: 0;
 
+  text-align: center; 
+
 }
 
-
-
-
+header h1 {
+  margin: 0 auto;
+}
 
 nav {
 
