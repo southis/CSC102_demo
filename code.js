@@ -52,7 +52,6 @@ function startDuel() {
 function determineOutcome(player, opponent) {
 
 
-
     // If your strength is greater, you win
 
     if (player > opponent) {
@@ -62,7 +61,6 @@ function determineOutcome(player, opponent) {
     }
 
 
-
     // If the opponent is stronger, you lose
 
     else if (player < opponent) {
@@ -70,7 +68,6 @@ function determineOutcome(player, opponent) {
         return " Defeat. Even the strongest fall when caution is ignored.";
 
     }
-
 
 
     // Equal strength – a perfect tie
