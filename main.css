@@ -60,7 +60,14 @@ header {
 
   padding: 20px 0;
 
-  background-color: #dcdcdc; /* subtle header background */
+  background-color: #dcdcdc; 
+
+}
+header h1 {
+  
+  margin: 0;
+
+  padding: 0;
 
 }
 
