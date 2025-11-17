@@ -120,7 +120,7 @@
 
             -->
 
-            <input type="button" value="Begin Duel"> onclick="startDuel()">
+            <input type="button" value="Begin Duel" onclick="startDuel()">
 
         </form>
 
