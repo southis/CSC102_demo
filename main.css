@@ -70,11 +70,7 @@ header {
 
   display: block;
 
-  margin-right: 200px;
-
-  margin-left: auto;
-
-  margin-bottom: 20px;
+  margin: 0 auto 20px auto;
 
   max-width: 80%; 
 
