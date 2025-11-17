@@ -30,6 +30,7 @@ function startDuel() {
 
     // Output the results to the web page using innerHTML
 
+
     document.getElementById("results").innerHTML =
 
         "<strong>Your Strength:</strong> " + playerStrength + "<br>" +
