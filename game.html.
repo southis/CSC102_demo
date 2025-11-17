@@ -96,7 +96,7 @@
 
         -->
 
-        <form onsubmit="startDuel(); return false;">
+        <form>
 
             <label for="playerStrength">
 
@@ -120,7 +120,7 @@
 
             -->
 
-            <input type="submit" value="Begin Duel">
+            <input type="button" value="Begin Duel"> onclick="startDuel()">
 
         </form>
 
