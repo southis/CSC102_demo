@@ -1,10 +1,10 @@
 body {
 
-  background-color: #2f2f2f; /* sleek grey background */
+  background-color: #2c2c2c; 
 
-  color: #8b0000; /* dark red text */
+  color: #8b0000; /
 
-  font-family: Arial, sans-serif; /* consistent and clean font */
+  font-family: Arial, sans-serif; 
 
   margin: 0;
 
@@ -13,8 +13,6 @@ body {
 }
 
 
-
-/* Navigation styles */
 
 nav {
 
@@ -28,53 +26,36 @@ nav {
 
   line-height: 30px;
 
-  background-color: #3c3c3c; /* optional slight contrast */
+  background-color: #1f1f1f;
 
-  color: #fff; /* nav text in white for visibility */
+  color: #8b0000;
 
 }
 
 
-
-/* Footer styles */
 
 footer {
 
   text-align: center;
 
-  margin-right: 200px;
-
   padding: 10px;
 
-  background-color: #3c3c3c; /* optional matching nav background */
+  background-color: #1f1f1f;
 
-  color: #fff;
+  color: #8b0000;
 
 }
 
 
 
-/* Meme image styles */
-
 #memeImage {
 
-  margin-right: 200px;
+  display: block;
 
-  max-width: 100%; /* keep image responsive */
+  margin: 0 auto; 
+
+  max-width: 100%;
 
   height: auto;
 
 }
-
-
-
-/* Header styles */
-
-header {
-
-  text-align: center;
-
-  padding: 20px 0;
-
-}
-
