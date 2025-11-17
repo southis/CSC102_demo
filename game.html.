@@ -34,7 +34,7 @@
 
     <!-- Linking the external JavaScript file (assignment requirement) -->
 
-    <script src="code.js"></script>
+    <script src="code.js."></script>
 
 </head>
 
