@@ -51,15 +51,13 @@ nav a:hover {
 
 
 header {
-
-  text-align: center;
-
+  background-color: #dcdcdc;
   padding: 20px 0;
-
-  background-color: #dcdcdc; 
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
   
-  
-
 }
 
 header h1 {
