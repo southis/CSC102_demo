@@ -114,3 +114,41 @@ ul {
 
 }
 
+@media (max-width: 600px) {
+
+ nav {
+
+  width: 100%;
+  height: auto;
+  float: none;
+  line-height: normal;
+  text-align: center;
+
+ }
+
+ .content {
+
+  margin-left: 0;
+
+  padding: 10px;
+
+ }
+
+ footer {
+
+  margin-right: 0;
+
+ }
+
+ memeImage {
+
+  margin-right: 0
+
+  max-width: 100%;
+
+  height: auto;
+
+ }
+
+}
+
