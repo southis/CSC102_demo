@@ -1,12 +1,12 @@
-<!-- 
+<!--  
 
-  Created by: Imena Shepherd
+    Created by: Imena Shepherd
 
-  Course: CSC102 Foundations
+    Course: CSC102 Foundations
 
-  File: game.html
+    Updated: 11/2025
 
-  Purpose: Strength Duel Game
+    Page: Game (Duel of Strength)
 
 -->
 
@@ -22,33 +22,39 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Strength Duel – Cyber Arena</title>
+    <title>Strength Duel Game</title>
 
 
 
-    <!-- Linking the external JavaScript file -->
+    <!-- Linking to your main CSS so it matches the other pages -->
+
+    <link rel="stylesheet" href="main.css">
+
+
+
+    <!-- Linking the external JavaScript file (assignment requirement) -->
 
     <script src="code.js"></script>
 
-<! -- Existing CSS file -- >
-
-<link rel="stylesheet" href="main.css">
-
 </head>
+
+
 
 <body>
 
-  <!-- Page header -->
+
+
+    <!-- Header section  -->
 
     <header>
 
-        <h1>Strength Duel – Cyber Arena</h1>
+        <h1>Strength Duel</h1>
 
     </header>
 
 
 
-    <!-- Navigation back to home -->
+    <!-- Navigation menu (consistent with other pages) -->
 
     <nav>
 
@@ -58,27 +64,25 @@
 
         <a href="./boards.html">Boards</a><br>
 
+        <a href="./game.html">Game</a><br>
+
     </nav>
 
 
 
-    <!-- Main content area -->
+    <!-- Content area -->
 
     <div class="content">
 
-
-
-        <h2>Enter the Arena</h2>
-
-
+        <h2>Enter Quark’s Arena</h2>
 
         <p>
 
-            In cybersecurity and combat,  strength is not just force,  
+            Your strength is your declaration.<br>
 
-            but understanding the conditions around you.  
+            The opponent’s strength is the unknown.<br>
 
-            Step into the duel and test your strength.
+            “Victory is never promised — only earned.”
 
         </p>
 
@@ -86,59 +90,61 @@
 
         <!-- 
 
-            FORM REQUIREMENT:
+            FORM REQUIRED BY THE ASSIGNMENT
 
-            MUST use form with submit 
-
-            MUST NOT use event listeners
-
-            MUST NOT place JS functions inside HTML
-
-            MUST use innerHTML for output
+            All user input must come through a form + submit 
 
         -->
 
-        <form id="duelForm" onsubmit="return playGame()">
+        <form onsubmit="startDuel(); return false;">
+
+            <label for="playerStrength">
+
+                Choose your strength (1–100):
+
+            </label>
+
+            <input type="number" id="playerStrength" min="1" max="100" required>
 
 
 
-            <!-- User input: their strength -->
-
-            <label for="playerStrength"><strong>Your Strength:</strong></label><br>
-
-            <input type="number" id="playerStrength" name="playerStrength" required><br><br>
+            <br><br>
 
 
 
-            <!-- Submit button required -->
+            <!-- 
 
-            <input type="submit" value="Enter Duel">
+                Button that triggers the game through 'startDuel()'
 
+                This button does NOT contain JavaScript inside it.
 
+            -->
+
+            <input type="submit" value="Begin Duel">
 
         </form>
 
 
 
-        <br>
+        <!-- Results will appear here via innerHTML -->
 
+        <h2>Results</h2>
 
-
-        <!-- This is where JS will place results -->
-
-        <div id="gameOutput"></div>
+        <p id="results">Awaiting your challenge...</p>
 
     </div>
 
 
 
-    <!-- Footer -->
+    <!-- Footer  -->
 
     <footer>
 
         Imena Shepherd<br>
 
-        Cyber Arena © 2025
+        University of Advancing Technology<br>
+
+        Tempe, AZ 85283
 
     </footer>
 
@@ -147,5 +153,6 @@
 </body>
 
 </html>
+
 
 
