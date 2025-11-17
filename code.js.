@@ -40,12 +40,6 @@ function startDuel() {
 
 }
 
-
-
-
-
-
-
 // -------------------------------------------------------
 
 // Function: determineOutcome(player, opponent)
