@@ -1,1 +1,151 @@
+<!-- 
+
+  Created by: Imena Shepherd
+
+  Course: CSC102 Foundations
+
+  File: game.html
+
+  Purpose: Strength Duel Game
+
+-->
+
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Strength Duel – Cyber Arena</title>
+
+
+
+    <!-- Linking the external JavaScript file -->
+
+    <script src="code.js"></script>
+
+<! -- Existing CSS file -- >
+
+<link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+  <!-- Page header -->
+
+    <header>
+
+        <h1>Strength Duel – Cyber Arena</h1>
+
+    </header>
+
+
+
+    <!-- Navigation back to home -->
+
+    <nav>
+
+        <h2>Navigation</h2>
+
+        <a href="./index.html">Home</a><br>
+
+        <a href="./boards.html">Boards</a><br>
+
+    </nav>
+
+
+
+    <!-- Main content area -->
+
+    <div class="content">
+
+
+
+        <h2>Enter the Arena</h2>
+
+
+
+        <p>
+
+            In cybersecurity and combat,  strength is not just force,  
+
+            but understanding the conditions around you.  
+
+            Step into the duel and test your strength.
+
+        </p>
+
+
+
+        <!-- 
+
+            FORM REQUIREMENT:
+
+            MUST use form with submit 
+
+            MUST NOT use event listeners
+
+            MUST NOT place JS functions inside HTML
+
+            MUST use innerHTML for output
+
+        -->
+
+        <form id="duelForm" onsubmit="return playGame()">
+
+
+
+            <!-- User input: their strength -->
+
+            <label for="playerStrength"><strong>Your Strength:</strong></label><br>
+
+            <input type="number" id="playerStrength" name="playerStrength" required><br><br>
+
+
+
+            <!-- Submit button required -->
+
+            <input type="submit" value="Enter Duel">
+
+
+
+        </form>
+
+
+
+        <br>
+
+
+
+        <!-- This is where JS will place results -->
+
+        <div id="gameOutput"></div>
+
+    </div>
+
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        Imena Shepherd<br>
+
+        Cyber Arena © 2025
+
+    </footer>
+
+
+
+</body>
+
+</html>
+
 
