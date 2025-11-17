@@ -96,7 +96,7 @@
 
         -->
 
-        <form> onsubmit="return false;">
+        <form onsubmit="return false;">
 
             <label for="playerStrength">
 
