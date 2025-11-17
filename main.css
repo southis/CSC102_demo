@@ -1,24 +1,20 @@
 body {
 
-  background-color: #f2f2f2; 
+ background-color: #f2f2f2; 
 
-  color: #8B0000; 
+ color: #8B0000; 
 
-  font-family: Arial, sans-serif; 
+font-family: Arial, sans-serif; 
 
-  margin: 0;
+ margin: 0;
 
-  padding: 0;
+padding: 0;
 
 }
 
-
-
-
-
 nav {
 
-  height: 600px;
+height: 600px;
 
   width: 200px;
 
@@ -27,14 +23,12 @@ nav {
   padding: 5px;
 
   line-height: 30px;
-
+  
   background-color: #e0e0e0;
 
   box-sizing: border-box;
 
 }
-
-
 
 nav a {
 
@@ -44,87 +38,57 @@ nav a {
 
 }
 
-
-
 nav a:hover {
 
   text-decoration: underline;
 
 }
 
-
-
-/
-
 header {
 
-  background-color: #dcdcdc;
+  text-align: center;
 
   padding: 20px 0;
 
-  text-align: left; 
-
-  padding-left: 20px; /
+  background-color: #dcdcdc; 
 
 }
 
-
-
 header h1 {
-
+  
   margin: 0;
-
+  
   padding: 0;
 
 }
 
+p {
 
+  text-align: center;
+
+}
 
 #memeImage {
 
-  display: block;
-
-  margin: 0 auto 20px auto; 
-
-  max-width: 80%;
+  max-width: 80%; 
 
   height: auto;
 
 }
 
-
-
-
-
-.content {
-
-  margin-left: 220px; 
-
-  padding: 10px;
-
-  text-align: center; 
-
-}
-
-
-
-
-
 footer {
 
-  text-align: left;
+  text-align: center;
 
-  margin-left: 220px; 
+  margin-right: 200px;
 
   padding: 15px 0;
 
   background-color: #dcdcdc;
 
-  clear: both;
+  clear: both; 
 
 }
-
-
 
 h1, h2 {
 
@@ -132,12 +96,17 @@ h1, h2 {
 
 }
 
-
-
-
-
 ul {
 
   padding-left: 20px;
 
 }
+
+.content {
+
+  margin-left: 220px; 
+
+  padding: 10px;
+
+}
+
