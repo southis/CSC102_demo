@@ -56,12 +56,10 @@ header {
 
 header h1 {
   
-  margin: 0 auto;
+  margin: 0;
   
   padding: 0;
 
- display: inline-block;
- 
  text-align: center;
 
 }
@@ -72,11 +70,11 @@ p {
 
 }
 
- h1, h2 {
+h1, h2 {
 
   color: #8B0000;
 
-  text-align: left;
+  text-align: center;
 
 }
 
@@ -118,6 +116,8 @@ footer {
   margin-left: 220px; 
 
   padding: 10px;
+
+ max-width: 900px;
 
 }
 
@@ -189,14 +189,4 @@ footer {
 
  }
  
-.content h1,
- 
-.content h2,
- 
-.content p {
-
-  text-align: center;
-
-}
-
 }
