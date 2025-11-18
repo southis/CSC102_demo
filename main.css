@@ -59,11 +59,11 @@ nav a:hover {
 
  .content-wrapper ul {
 
-  padding-left: 30px;
+  padding-left: 40px;
 
-  margin-left: 0;
+  margin-left: 0 auto;
 
-  width: 100%;
+  max-width: 600%;
 
 }
 
