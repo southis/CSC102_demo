@@ -55,6 +55,14 @@ nav a:hover {
  padding: 10px;
 
  box-sizing: border-box;
+
+ .content-wrapper ul {
+
+  padding-left: 40px;
+
+  margin-left: auto;
+
+  margin-right: auto;
  
 }
 
