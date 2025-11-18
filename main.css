@@ -59,11 +59,11 @@ nav a:hover {
 
  .content-wrapper ul {
 
+  masx-width: 600px;
+
   padding-left: 30px;
 
-  margin-left: 0 auto;
-
-  max-width: 600%;
+  margin: 0 auto;
 
 }
 
@@ -94,7 +94,7 @@ header, footer {
 
  display: block;
 
- margin-left: 60px;
+ margin-left: auto;
 
  margin-right: auto;
  
