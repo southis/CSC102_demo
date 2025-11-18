@@ -26,6 +26,10 @@ nav {
   
   background-color: #e0e0e0;
 
+ height: 600px;
+ 
+ box-sizing: border-box;
+
 }
 
 nav a {
@@ -50,19 +54,23 @@ nav a:hover {
 
  padding: 10px;
 
+ box-sizing: border-box;
+ 
 }
 
 header, footer {
 
+ text-align: center;
+
+  padding: 15px 0;
+ 
  background-color: #dcdcdc; 
 
- padding: 20px;
- 
-text-align: center;
+ clear: both;
 
 }
 
-.content-wrapper form input[type="number",
+.content-wrapper form input[type="number",]
 
 .content-wrapper form input[type="button"] {
 
@@ -116,7 +124,13 @@ header, footer {
 
  #memeImage {
 
-  max-width: 100%;
+  display: block;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  max-width: 80%;
 
   height: auto;
 
