@@ -54,16 +54,14 @@ nav a:hover {
 
  padding: 10px;
 
- box-sizing: border-box;
+}
 
  .content-wrapper ul {
 
   padding-left: 40px;
 
-  margin-left: auto;
+  margin-left: 0;
 
-  margin-right: auto;
- 
 }
 
 header, footer {
@@ -130,7 +128,7 @@ header, footer {
 
    }
 
- #memeImage {
+.content-wrapper #memeImage {
 
   display: block;
 
