@@ -92,9 +92,15 @@ header, footer {
 
 .content-wrapper #memeImage {
 
-  max-width: 80%;
+ display: block;
+ 
+ margin-left: auto;
+  
+ margin-right: auto;
 
-  height: auto;
+  max-width: 80%;
+ 
+ height: auto;
 
  }
    
