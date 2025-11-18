@@ -8,13 +8,13 @@ font-family: Arial, sans-serif;
 
  margin: 0;
 
-padding: 0;
+ padding: 0;
+
+ box-sizing: border-box;
 
 }
 
 nav {
- 
-height: 600px;
 
   width: 200px;
 
@@ -25,8 +25,6 @@ height: 600px;
   line-height: 30px;
   
   background-color: #e0e0e0;
-
-  box-sizing: border-box;
 
 }
 
@@ -44,127 +42,53 @@ nav a:hover {
 
 }
 
-header {
+.content-wrapper { 
 
- text-align: center;
-
-padding: 20px 0;
- 
- background-color: #dcdcdc; 
-
-}
-
-header h1 {
-
- margin-left: 220px;
-
- display: inline-block;
-
- text-align: left;
-  
-}
-
-p {
-
-  text-align: left;
-
-}
-
-h1, h2 {
-
-  color: #8B0000;
-
-  text-align: left;
-
-}
-
- ul {
-
-  padding-left: 20px;
-
-}
-
-#memeImage {
-
- display:block;
-
- margin-left: auto;
-
- margin-right: auto;
-
- max-width: 80%;
-
- height: auto;
-
-}
-
-footer {
-
-  text-align: center;
-
-  margin-left: 220px; 
-
- padding: 15px 0;
- 
- background-color: #dcdcdc;
-
-  clear: both; 
- 
-}
-
-.content {
-
-  margin-left: 220px; 
-
-  padding: 10px;
+ margin-left: 200px;
 
  max-width: 900px;
 
-}
-
-.right-align {
-
- text-align: right;
+ padding: 10px;
 
 }
 
-.content form { 
+header, footer {
+
+ background-color: #dcdcdc; 
+
+ padding: 20px;
  
- display: flex;
- 
- flex-direction: column;
- 
- align-items: center;
+text-align: center;
 
 }
 
-.content form input[type="number"],
+.content-wrapper form input[type="number",
 
-.content form input[type="button"] {
+.content-wrapper form input[type="button"] {
 
  margin: 5px 0;
 
  padding: 5px;
 
 }
-
+                            
 @media (max-width: 600px) {
 
  nav {
 
   width: 100%;
-  
+
+    float: none;
+
+   text-align: center;
+
   height: auto;
-  
-  float: none;
-  
-  text-align: center;
   
   line-height: normal;
 
  }
 
- .content {
+ .content-wrapper {
 
   margin-left: 0;
 
@@ -172,11 +96,23 @@ footer {
 
  }
 
- footer {
+header, footer {
+ 
+ text-align: center;
 
-  margin-left: 0;
+  padding: 15px 10px
 
  }
+
+ .content-wrapper h1,
+
+ .content-wrapper h2,
+
+ .content-wrapper p {
+
+  text-align: center;
+
+   }
 
  #memeImage {
 
@@ -184,20 +120,5 @@ footer {
 
   height: auto;
 
-  margin-left: auto;
-
-  margin-right: auto;
-
  }
-
- .content h1,
-
- .content h2,
-
- .content p{
-
-  text-align: center;
-
- }
-
-} 
+    }
