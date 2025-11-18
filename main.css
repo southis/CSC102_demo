@@ -68,7 +68,20 @@ header h1 {
 
 p {
 
-  text-align: center;
+  text-align: left;
+
+}
+
+ h1, h2 {
+
+  color: #8B0000;
+
+  text-align: left;
+
+}
+
+ul { 
+ padding-left: 20px;
 
 }
 
@@ -100,23 +113,37 @@ footer {
 
 }
 
-h1, h2 {
-
-  color: #8B0000;
-
-}
-
-ul {
-
-  padding-left: 20px;
-
-}
-
 .content {
 
   margin-left: 220px; 
 
   padding: 10px;
+
+}
+
+.right-align {
+
+ text-align: right;
+
+}
+
+.content form { 
+ 
+ display: flex;
+ 
+ flex-direction: column;
+ 
+ align-items: center;
+
+}
+
+.content form input[type="number"],
+
+.content form input[type="button"] {
+
+ margin: 5px 0;
+
+ padding: 5px;
 
 }
 
@@ -161,27 +188,15 @@ ul {
   margin-right: auto;
 
  }
+ 
 .content h1,
+ 
 .content h2,
+ 
 .content p {
 
   text-align: center;
 
 }
 
-.content form {
- display: flex;
- flex-direction: column;
- align-items: center;
-} 
-
-.content form input[type="number"],
-
-.content form input[type="button"] {
-
- margin: 5px 0;
-
 }
-
-}
- 
