@@ -14,6 +14,8 @@ padding: 0;
 
 nav {
 
+ min-height: 100vh;
+ 
 height: 600px;
 
   width: 200px;
@@ -46,19 +48,19 @@ nav a:hover {
 
 header {
 
-  text-align: center;
+ display: flex;
 
-  padding: 20px 0;
+align-items: center;
+
+ padding: 20px 20px 20px 220px;
 
   background-color: #dcdcdc; 
 
 }
 
 header h1 {
-  
-  padding-left: 220px;
 
- display: inline-block;
+ margin: 0;
 
  text-align: left;
   
@@ -102,13 +104,13 @@ footer {
 
   text-align: center;
 
-  margin-left: 220px;
-
   padding: 15px 0;
-
-  background-color: #dcdcdc;
+ 
+ background-color: #dcdcdc;
 
   clear: both; 
+ 
+  margin-left: 220px;
 
 }
 
