@@ -13,8 +13,6 @@ padding: 0;
 }
 
 nav {
-
- min-height: 100vh;
  
 height: 600px;
 
@@ -48,11 +46,9 @@ nav a:hover {
 
 header {
 
- display: flex;
+ text-align: center;
 
-align-items: center;
-
- padding: 20px 20px 20px 220px;
+ padding-left: 220px;
 
   background-color: #dcdcdc; 
 
@@ -60,7 +56,9 @@ align-items: center;
 
 header h1 {
 
- margin: 0;
+ margin-left: 220px;
+
+ display: inline-block;
 
  text-align: left;
   
@@ -104,14 +102,14 @@ footer {
 
   text-align: center;
 
-  padding: 15px 0;
+  margin-left: 220px; 
+
+ padding: 15px 0;
  
  background-color: #dcdcdc;
 
   clear: both; 
  
-  margin-left: 220px;
-
 }
 
 .content {
