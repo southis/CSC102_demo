@@ -96,13 +96,13 @@ header, footer {
 
  display: block;
 
- margin-left: auto;
+ margin-left: 0;
 
- margin-right: auto;
+ margin-right: 0;;
  
   max-width: 80%;
  
- height: auto;
+ height: 0;
 
  }
    
