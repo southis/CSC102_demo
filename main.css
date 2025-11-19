@@ -69,6 +69,12 @@ nav a:hover {
 
 }
 
+.content-wrapper p {
+
+ text-align: left;
+
+}
+
 header, footer {
 
  text-align: center;
@@ -96,7 +102,7 @@ header, footer {
 
  display: block;
 
- margin-left: 40px;
+ margin-left: auto;
 
  margin-right: auto;
  
