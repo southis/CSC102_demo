@@ -50,10 +50,6 @@ nav a:hover {
 
  margin-left: 200px;
  
- margin-right: auto;
-
- width: calc(100% - 200px);
- 
  max-width: 900px;
 
  padding: 10px;
