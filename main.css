@@ -50,11 +50,13 @@ nav a:hover {
 
  margin-left: 200px;
 
- margin-right: auto;
-
  max-width: 900px;
 
  padding: 10px;
+
+ display: block;
+
+ margin-right: auto;
 
 
 }
