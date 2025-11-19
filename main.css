@@ -96,9 +96,9 @@ header, footer {
 
  display: block;
 
- margin-left: 0;
+ margin-left: auto;
 
- margin-right: 0;
+ margin-right: auto;
  
   max-width: 80%;
  
