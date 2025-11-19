@@ -65,6 +65,8 @@ nav a:hover {
 
   margin: 0 auto;
 
+  list-style-position: inside;
+
 }
 
 header, footer {
