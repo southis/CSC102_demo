@@ -154,5 +154,13 @@ header, footer {
   text-align: center;
 
    }
+
+.center-block {
+
+ text-align: center;
+
+ margin: 0 auto;
+
+ width: fit-content;
+
 }
- 
