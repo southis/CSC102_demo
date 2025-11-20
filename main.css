@@ -1,192 +1,372 @@
+
+
 body {
+
+
 
  background-color: #f2f2f2;
 
+
+
  color: #8B0000;
+
+
 
 font-family: Arial, sans-serif;
 
+
+
  margin: 0;
+
+
 
  padding: 0;
 
+
+
  box-sizing: border-box;
 
+
+
 }
+
+
 
 nav {
 
+
+
   width: 200px;
+
+
 
   float: left;
 
+
+
   padding: 5px;
 
+
+
   line-height: 30px;
+
  
+
   background-color: #e0e0e0;
 
+
+
  height: 600px;
+
  
+
  box-sizing: border-box;
 
+
+
 }
+
+
 
 nav a {
 
+
+
   text-decoration: none;
+
+
 
   color: #8B0000;
 
+
+
 }
+
+
 
 nav a:hover {
 
+
+
   text-decoration: underline;
+
+
 
 }
 
+
+
 .content-wrapper {
 
+
+
  margin-left: 200px;
+
  
+
  max-width: 900px;
+
+
 
  padding: 10px;
 
 
+
+
+
 }
+
+
 
  .content-wrapper ul {
 
+
+
   max-width: 600px;
+
+
 
   padding-left: 30px;
 
+
+
   margin: 0;
+
+
 
   list-style-position: inside;
 
+
+
 }
+
+
 
 .content-wrapper p {
 
+
+
  text-align: center;
 
+
+
 }
+
+
 
 header, footer {
 
+
+
  text-align: center;
 
+
+
   padding: 15px 0;
+
  
+
  background-color: #dcdcdc;
+
+
 
  clear: both;
 
- margin-right: 200px;
+
 
 }
+
+
 
 .content-wrapper form input[type="number"],
 
+
+
 .content-wrapper form input[type="button"] {
+
+
 
  margin: 5px 0;
 
+
+
  padding: 5px;
 
+
+
 }
+
+
+
 
 
 .content-wrapper #memeImage {
 
- display: block;
 
- margin-left: auto;
 
- margin-right: auto;
+ display: inline-block;
+
  
+
   max-width: 80%;
+
+ 
 
  height: auto;
 
+
+
+ margin: 0;
+
+
+
+
+
  }
+
    
+
 @media (max-width: 600px) {
+
+
 
  nav {
 
+
+
   width: 100%;
+
+
 
     float: none;
 
+
+
    text-align: center;
 
+
+
   height: auto;
+
  
+
   line-height: normal;
 
+
+
  }
+
+
 
  .content-wrapper {
 
+
+
   margin-left: 0;
+
+
 
   padding: 10px;
 
+
+
  }
 
+
+
 header, footer {
+
  
+
  text-align: center;
+
+
 
   padding: 15px 10px;
 
+
+
  }
+
+
 
  .content-wrapper h1,
 
+
+
  .content-wrapper h2,
+
+
 
  .content-wrapper p {
 
+
+
   text-align: center;
+
+
 
  }
 
+
+
 }
+
  
+
+
 
 .center-block {
 
+
+
  width: 80%;
+
+
 
  max-width: 600px;
 
+
+
  text-align: center;
+
  
+
  margin: 0 auto;
 
+
+
 }
+
+
 
 .image-center {
 
+
+
  text-align: center;
 
- margin-left: 0;
 
- margin-right: 0;
 
 }
 
+
+
  .image-center img { 
+
+
 
   display: inline-block;
 
+
+
   max-width: 80%;
+
+
 
   height: auto;
 
+
+
  }
+
