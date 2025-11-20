@@ -85,6 +85,8 @@ header, footer {
 
  clear: both;
 
+ margin-right: 200px;
+
 }
 
 .content-wrapper form input[type="number"],
@@ -100,15 +102,16 @@ header, footer {
 
 .content-wrapper #memeImage {
 
- display: inline-block;
+ display: block;
+
+ margin-left: auto;
+
+ margin-right: auto;
  
   max-width: 80%;
- 
- height: auto;
 
  margin: 0;
 
- margin-right: 200px;
 
 
  }
