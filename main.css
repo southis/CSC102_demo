@@ -54,7 +54,6 @@ nav a:hover {
 
  padding: 10px;
 
- text-align: center;
 
 }
 
@@ -168,3 +167,19 @@ header, footer {
  margin: 0 auto;
 
 }
+
+.image-center {
+
+ text-align: center;
+
+}
+
+ .image-center img { 
+
+  display: inline-block;
+
+  max-width: 80%;
+
+  height: auto;
+
+ }
