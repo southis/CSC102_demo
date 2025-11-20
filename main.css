@@ -1,20 +1,18 @@
 body {
 
-  background-color: #f2f2f2; 
+ background-color: #f2f2f2;
 
-  color: #8B0000; 
+ color: #8B0000;
 
-  font-family: Arial, sans-serif; 
+font-family: Arial, sans-serif;
 
-  margin: 0;
+ margin: 0;
 
-  padding: 0;
+ padding: 0;
 
-  box-sizing: border-box;
+ box-sizing: border-box;
 
 }
-
-
 
 nav {
 
@@ -25,16 +23,14 @@ nav {
   padding: 5px;
 
   line-height: 30px;
-
+ 
   background-color: #e0e0e0;
 
-  height: 600px;
-
-  box-sizing: border-box;
+ height: 600px;
+ 
+ box-sizing: border-box;
 
 }
-
-
 
 nav a {
 
@@ -44,29 +40,24 @@ nav a {
 
 }
 
-
-
 nav a:hover {
 
   text-decoration: underline;
 
 }
 
+.content-wrapper {
 
+ margin-left: 200px;
+ 
+ max-width: 900px;
 
-.content-wrapper { 
+ padding: 10px;
 
-  margin-left: 200px;
-
-  max-width: 900px;
-
-  padding: 10px;
 
 }
 
-
-
-.content-wrapper ul {
+ .content-wrapper ul {
 
   max-width: 600px;
 
@@ -78,114 +69,103 @@ nav a:hover {
 
 }
 
-
-
 .content-wrapper p {
 
-  text-align: center;
+ text-align: center;
 
 }
-
-
 
 header, footer {
 
-  text-align: center;
+ text-align: center;
 
   padding: 15px 0;
+ 
+ background-color: #dcdcdc;
 
-  background-color: #dcdcdc; 
-
-  clear: both;
+ clear: both;
 
 }
-
-
 
 .content-wrapper form input[type="number"],
 
 .content-wrapper form input[type="button"] {
 
-  margin: 5px 0;
+ margin: 5px 0;
 
-  padding: 5px;
+ padding: 5px;
 
 }
-
 
 
 .content-wrapper #memeImage {
 
-  display: block;
+ display: block;
 
-  max-width: 100%;
+ margin-left: auto;
 
-  height: auto;
+ margin-right: auto;
+ 
+  max-width: 80%;
+ 
+ height: auto;
 
-}
 
-
-
+ }
+   
 @media (max-width: 600px) {
 
-  nav {
+ nav {
 
-    width: 100%;
+  width: 100%;
 
     float: none;
 
-    text-align: center;
+   text-align: center;
 
-    height: auto;
+  height: auto;
+ 
+  line-height: normal;
 
-    line-height: normal;
+ }
 
-  }
+ .content-wrapper {
 
+  margin-left: 0;
 
+  padding: 10px;
 
-  .content-wrapper {
+ }
 
-    margin-left: 0;
+header, footer {
+ 
+ text-align: center;
 
-    padding: 10px;
+  padding: 15px 10px;
 
-  }
+ }
 
+ .content-wrapper h1,
 
+ .content-wrapper h2,
 
-  header, footer {
+ .content-wrapper p {
 
-    text-align: center;
+  text-align: center;
 
-    padding: 15px 10px;
-
-  }
-
-
-
-  .content-wrapper h1,
-
-  .content-wrapper h2,
-
-  .content-wrapper p {
-
-    text-align: center;
-
-  }
+ }
 
 }
-
-
-
-
+ 
 
 .center-block {
 
-  width: 80%;          
+ width: 80%;
 
-  max-width: 600px;    
+ max-width: 600px;
 
-  margin: 0 auto;      
+ text-align: center;
+ 
+ margin: 0 auto;
 
-  text-align: center;  
+}
