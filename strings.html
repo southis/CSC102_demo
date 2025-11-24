@@ -1,1 +1,126 @@
+< !--
 
+Created by: Imena Shepherd
+
+Course: CSC102 Foundations
+
+Date: 11/24/2025
+
+Strings and Secret Message Validation
+
+-->
+
+<! DOCTYPE html>
+
+<html lang="en" >
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <title> Secret Message Access</title>
+
+    <link rel="stylesheet" href="main.css">
+
+    < ! -- Link to shared CSS file -->
+
+    <script src="strings.js" defer></script>
+    
+  </head>
+
+  <body>
+
+    <! -- Page header -->
+
+    <header>
+
+      <h1>Secret Message Access</h1><
+    
+    </header>
+
+    < ! -- Navigation menu -->
+
+    <nav>
+      
+      <h2>Navigation</h2>
+
+      <a href="./index.hmtl">Home</a><br>
+      
+      <a href="./boards.hmtl">Boards</a><br>
+      
+      <a href="./game.hmtl">Game</a><br>
+
+      </nav>
+
+    <! -- Main content -->
+
+    <div class="content-wrapper">
+
+      <h2>Enter Your Information</h2>
+
+      <p>Provide your name and zip code to unlock what's untold!</p>
+
+      <!-- Form containing the inputs -->
+
+      <form onsubmit="return validateForm()">
+
+        <!-- First Name input -->
+
+        <label for ="firstName>First Name:</label>
+
+        <input type="text" id= "firstName" required><br><br>
+
+          <! -- Last Name input -- >
+
+          <label for="lastName">Last Name:</label>
+
+          <input type="text" id=:lastName" required><br><br>
+
+          <! -- Zip Code input -->
+
+          <label for="zipCode">Zip Code:</label>
+
+          <input type="text" id="zipCode" maxlength="5" required><br><br>
+
+          <! -- Submit button -->
+
+          <input type="submit" value="Unlock The Untold Message">
+
+      </form>
+
+      <! -- Area to display untold message -->
+
+      <p id="messageOutput"></p>
+
+     <! -- Creative element -->
+
+      <div class="image-center">
+
+        <img src="untold-message.pdf" alt="Untold Message" style="max-width:50%; height: auto;">
+
+      </div>
+
+    </div>
+
+    <! -- Footer -->
+
+    <footer>
+
+      Imena Shepherd<br>
+
+      University of Advancing of Technology <br>
+
+      2625 W. Baseline Road, Suite 101<br>
+
+      Tempe, AZ 85283<br>
+
+    </footer>
+
+  </body>
+
+</html>
+    </footer>
+    
+<label
