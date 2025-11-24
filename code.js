@@ -54,7 +54,7 @@ function determineOutcome(player, opponent) {
 
     // If your strength is greater, you win
 
-    if (player < opponent) {
+    if (player > opponent) {
 
         return " Victory. You stood firm when it mattered.";
 
