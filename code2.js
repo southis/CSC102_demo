@@ -42,7 +42,7 @@ function validateInputs() {
 
   document.getElementById("message").innerHTML = 
     
-    "Horray, " + fullName + 
+    "Hooray, " + fullName + 
     
     "! Here's the untold message: <strong>Cybersecurity is knowledge - wear it as armor!</strong>";
 }
