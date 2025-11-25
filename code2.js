@@ -1,4 +1,4 @@
-// Validate user input and for display of untold message 
+// Validate user input and for display the untold message 
 
 function validateInputs() { 
 
@@ -10,7 +10,7 @@ function validateInputs() {
 
   let zip = document.getElementById("zip").value.trim();
 
-  // Using first + last name 
+  // Combine first + last name 
 
   let fullName = firstName + " " + lastName;
 
@@ -18,7 +18,9 @@ function validateInputs() {
 
   if (fullName.length > 20) {
 
-    document.getElementById("message").innerHTML = "Alert: Full name must be less than 20 characters.";
+    document.getElementById("message").innerHTML = 
+      
+      "Alert: Full name must be less than 20 characters.";
 
     return;
 
@@ -28,12 +30,19 @@ function validateInputs() {
 
   if (!/^\d{5}$/.test(zip) ) {
 
-    document.getElementById("message").innerHTML = "Alert: Zip code must be 5 digits.";
+    document.getElementById("message").innerHTML = 
+      
+      "Alert: Zip code must be 5 digits.";
 
     return;
 
   }
 
-  // If inputs are valid, showing untold message
+  // If inputs are valid, reveal untold message
 
-  document.getElementById("message").innerHTML = "Horray, " + fullName + "! Here's the untold message: <strong>Cybersecurity is knowledge, wear it as armor!</strong>";
+  document.getElementById("message").innerHTML = 
+    
+    "Horray, " + fullName + 
+    
+    "! Here's the untold message: <strong>Cybersecurity is knowledge - wear it as armor!</strong>";
+}
