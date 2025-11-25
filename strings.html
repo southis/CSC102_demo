@@ -35,7 +35,7 @@ Date: 11/24/2025
 
     <header>
 
-      <h1>Untold Message Access</h1>
+      <h1> Discover the Untold Message!</h1>
     
     </header>
 
@@ -64,11 +64,11 @@ Date: 11/24/2025
 
       <!-- Form containing the inputs -->
 
-      <form onsubmit="return validateForm()">
+      <form onsubmit="return false;">
 
         <!-- First Name input -->
 
-        <label for ="firstName>First Name:</label>
+        <label for="firstName>First Name:</label>
 
         <input type="text" id= "firstName" required><br><br>
 
@@ -82,7 +82,7 @@ Date: 11/24/2025
 
           <label for="zipCode">Zip Code:</label>
 
-          <input type="text" id="zipCode" maxlength="5" required><br><br>
+          <input type="text" id="zip" required><br><br>
 
           <! -- Submit button -->
 
@@ -92,13 +92,13 @@ Date: 11/24/2025
 
       <! -- Area to display untold message -->
 
-      <p id="messageOutput"></p>
+      <p id="message"Enter your name and zip code in the Cave to see the unlock messsge!</p>
 
      <! -- Creative element -->
 
       <div class="image-center">
 
-        <img src="untold-message.jpeg" alt="Untold Message" style="max-width:50%; height: auto;">
+        <img src="untold-message.jpeg" alt="Untold Message" id="untoldMessage">
 
       </div>
 
@@ -120,7 +120,6 @@ Date: 11/24/2025
 
   </body>
 
-</html>
-    </footer>
+</html> 
     
-<label
+
