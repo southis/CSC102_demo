@@ -20,7 +20,7 @@ function validateInputs() {
 
     document.getElementById("message").innerHTML = 
       
-      "Alert: Full name must be less than 20 characters.";
+      "Warning: Full name must be less than 20 characters.";
 
     return;
 
@@ -32,7 +32,7 @@ function validateInputs() {
 
     document.getElementById("message").innerHTML = 
       
-      "Alert: Zip code must be 5 digits.";
+      "Warning: Zip code must be 5 digits.";
 
     return;
 
