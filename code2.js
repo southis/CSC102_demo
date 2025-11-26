@@ -44,5 +44,5 @@ function validateInputs() {
     
     "Hooray, " + fullName + 
     
-    "! Here's the untold message: <strong>Cybersecurity is knowledge - wear it as armor!</strong>";
+    "! Here's the untold message: <strong>Cybersecurity is about positioning - trust no one verify everything!</strong>";
 }
