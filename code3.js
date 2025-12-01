@@ -24,7 +24,7 @@ function startMove () {
 
 document.getElementById("startBtn").disabled = true;
 
-document.getElementById("stopBtn").diabled = false;
+document.getElementById("stopBtn").disabled = false;
 
 // Call function constantly every 200ms to move meme image
 
