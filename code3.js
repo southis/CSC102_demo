@@ -2,7 +2,7 @@
 
 // Global for setInterval ID
 
-This allows us to stop the movement later 
+// This allows us to stop the movement later 
 
 // 
 
@@ -26,7 +26,7 @@ document.getElementById("startBtn").disabled = true;
 
 document.getElementById("stopBtn").disabled = false;
 
-// Call function constantly every 200ms to move meme image
+// Call the moveMeme every 200ms to animate movement
 
 moveInterval = setInterval(moveMeme, 200);
 
@@ -48,9 +48,9 @@ function stopMove() {
 
   // Enable the Start again, disbale Stop
 
-  document.getElementById("startBtn").diabled = false;
+  document.getElementById("startBtn").disabled = false;
 
-  document.getElementById("stopBtn").diabled = true;
+  document.getElementById("stopBtn").disabled = true;
 
 }
 
