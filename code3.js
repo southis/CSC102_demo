@@ -61,15 +61,18 @@ function moveMeme () {
 
   let meme = document.getElementById("memeImage");
 
+  let container = document.querySelector('.image-center');
+
+  // Calculate max positions to keep meme inside container
+
+
   // Created a random X/Y position inside the window
 
-  let randomX = Math.floor(Math.random() * 500); 
+  let randomX = Math.floor(Math.random() * maxX); 
   
-  let randomY = Math.floor(Math.random() * 500);
+  let randomY = Math.floor(Math.random() * maxY);
 
   // Applied a position using CSS
-
-  meme.style.position = "relative";
 
   meme.style.left = randomX + "px";
 
