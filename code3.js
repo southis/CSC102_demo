@@ -1,4 +1,4 @@
-//
+
 
 // Global for setInterval ID
 
@@ -8,21 +8,19 @@
 
 let moveInterval;
 
-//
 
 // Function: startMove()
 
 // Goal: Start the meme movement & disable Start button, enable Stop button
 
-//
 
 function startMove () {
 
-// Disable starting point, enable stop
+// Disable start button, enable stop
 
 document.getElementById("startBtn").disabled = true;
 
-document.getElementById("stopBtn").disabled = false;
+document.getElementById("Btn").disabled = false;
 
 // Call the moveMeme every 200ms to animate movement
 
@@ -30,13 +28,11 @@ moveInterval = setInterval(moveMeme, 200);
 
 }
 
-//
 
 // Function: stopMove ()
 
 // Goal: Stop movement & update button states
 
-//
 
 function stopMove() {
 
@@ -44,7 +40,7 @@ function stopMove() {
 
   clearInterval(moveInterval);
 
-  // Enable the Start again, disbale Stop
+  // Enable the Start again, disable Stop
 
   document.getElementById("startBtn").disabled = false;
 
@@ -52,13 +48,12 @@ function stopMove() {
 
 }
 
-//
+
 
 // Function: moveMeme()
 
 // Goal: Place the meme on the page 
 
-//
 
 function moveMeme () {
 
