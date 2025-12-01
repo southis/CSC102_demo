@@ -12,9 +12,7 @@ let moveInterval;
 
 // Function: startMove()
 
-// Goal: Start the meme movement & 
-
-// disable Start button, enable Stop button
+// Goal: Start the meme movement & disable Start button, enable Stop button
 
 //
 
@@ -36,7 +34,7 @@ moveInterval = setInterval(moveMeme, 200);
 
 // Function: stopMove ()
 
-// Goal: Stop movement & updates button state 
+// Goal: Stop movement & update button states
 
 //
 
@@ -74,7 +72,7 @@ function moveMeme () {
   
   let randomY = Math.floor(Math.random() * 500);
 
-  // Applied a brand new position using CSS
+  // Applied a position using CSS
 
   meme.style.position = "relative";
 
