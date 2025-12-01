@@ -20,7 +20,7 @@ function startMove () {
 
 document.getElementById("startBtn").disabled = true;
 
-document.getElementById("Btn").disabled = false;
+document.getElementById("stopBtn").disabled = false;
 
 // Call the moveMeme every 200ms to animate movement
 
