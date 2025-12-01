@@ -217,6 +217,9 @@ header, footer {
  margin: 0;
 
 
+ position: absolute; 
+
+
 
 
 
@@ -383,4 +386,5 @@ header, footer {
 
 }
 
-  
+
+
