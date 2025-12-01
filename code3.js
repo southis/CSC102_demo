@@ -36,9 +36,7 @@ moveInterval = setInterval(moveMeme, 200);
 
 // Function: stopMove ()
 
-// Goal: Stop movement &
-
-// enable start button, disable stop button
+// Goal: Stop movement & updates button state 
 
 //
 
