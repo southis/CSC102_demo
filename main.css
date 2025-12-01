@@ -384,3 +384,43 @@ header, footer {
 
 
 }
+
+#startBtn, #stopBtn {
+
+ margin: 10px 5px;
+
+ padding: 8px 15px;
+
+ font-size: 16px;
+
+ border-radius: 5px;
+
+ border: none;
+
+ cursor: pointer;
+
+}
+
+#startBtn:disabled, #stopBtn:disabled {
+
+ background-color: #ccc;
+
+ cursor: not-allowed;
+
+}
+
+#startBtn {
+
+ background-color: #8B0000;
+
+ color: #fff;
+
+}
+
+#stopBtn {
+
+ background-color: #555;
+
+ color: #fff;
+
+}
