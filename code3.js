@@ -65,8 +65,12 @@ function moveMeme () {
 
   // Calculate max positions to keep meme inside container
 
+  let maxX = container.offsetWidth - meme.offsetWidth;
 
-  // Created a random X/Y position inside the window
+  let maxY = container.offsetHeight - meme.offsetHeight;
+
+
+  // Random positions within container window
 
   let randomX = Math.floor(Math.random() * maxX); 
   
