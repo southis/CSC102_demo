@@ -424,3 +424,21 @@ header, footer {
  color: #fff;
 
 }
+
+.image-center {
+
+ position: relative;
+
+ height: 400px;
+
+}
+
+#memeImage {
+
+ position: absolute;
+
+}
+
+
+
+  
