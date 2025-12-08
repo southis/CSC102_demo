@@ -26,43 +26,34 @@ let normalized = input.replace(/\s+/g, '').toLowerCase();
 
   // Reverse the normalized string
 
-  let reversed = normalized.split('').reverse().join('');
+  let reversed = normalized.split("").reverse().join("");
 
-  // Check if palindrome
+  // Check match
+
+  let message = "";
 
   if (normalized === reversed) {
 
-    document.getElementById("result").innerHTML = `"${input}" is a palindrome. Hooray!`;
+   message = `"${input}" <strong>is/strong> a palindrome!`;
 
   } else {
 
-    document.getElementById("result").innerHTML = `"${input}" is NOT a palindrome. Try again.`;
+    message = `"${input}" <strong>is/strong> NOT</strong> a palindrome.`;
 
   }
 
-  // Asking user if they want to try again
+  // Display the result
 
-  setTimeout(() => {
+   document.getElementById("result").innerHTML = message;
 
-    let tryAgain = prompt("Do you want to examine another word? (yes/no)")?.toLowerCase();
 
-    if (tryAgain === "yes" || tryAgain === "y") {
-
-      // Clear input and result for next examination 
+      // Clear input for repeat loop
 
       document.getElementById("userInput").value = "";
 
-      document.getElementById("result").innerHTML = "Your result will appear here.";
 
       document.getElementById("userInput").focus();
 
-    } else {
-
-      document.getElementById("result").innerHTML += "<br>Thank you for using the Palindrome Checker!";
-
-    }
-
-  }, 100); // Delay to allow innerHTML update before prompt 
-
 }
 
+    
