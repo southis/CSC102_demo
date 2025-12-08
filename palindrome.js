@@ -4,14 +4,6 @@
 
 //
 
-// A loop variable to control user input repetitions
-
-let keepChecking = true;
-
-// Function: checkPalindrome()
-
-// Purpose: Reads user input, checks if palindrome, updates innerHTML
-
 function checkPalindrome() {
 
 // Get user input from form
@@ -40,11 +32,11 @@ let normalized = input.replace(/\s+/g, '').toLowerCase();
 
   if (normalized === reversed) {
 
-    document.getElementById("result").innerHTML = '"${input}" is a palindrome. Hooray`!;
+    document.getElementById("result").innerHTML = `"${input}" is a palindrome. Hooray!`;
 
   } else {
 
-    document.getElementById("result").innerHTML = '"${input}" is not a palindrome. Try again`;
+    document.getElementById("result").innerHTML = `"${input}" is NOT a palindrome. Try again.`;
 
   }
 
