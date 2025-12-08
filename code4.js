@@ -28,7 +28,7 @@ let normalized = input.replace(/\s+/g, '').toLowerCase();
 
   let reversed = normalized.split("").reverse().join("");
 
-  // Check match
+  // Determine message
 
   let message = "";
 
@@ -42,18 +42,61 @@ let normalized = input.replace(/\s+/g, '').toLowerCase();
 
   }
 
-  // Display the result
+  // Show the result
 
    document.getElementById("result").innerHTML = message;
 
 
-      // Clear input for repeat loop
-
       document.getElementById("userInput").value = "";
 
 
-      document.getElementById("userInput").focus();
+  // Asking user if they want to check another word
+
+  continueLoop();
 
 }
+// Display options to continue or exit
+
+function continueLoop() {
+
+  document.getElementById("result").innerHTML +=
+
+    "<br><br>Would you like to check another word?<br>" +
+
+    "<button onclick='resetForNext(this)'>Yes, Check Another</button> " +
+
+    "<button onclick='exitLoop(this)'>No, I'm Done</button>";
+
+  // Disable submit button
+
+  document.querySelector("input[type='submit']").disabled = false;
+
+}
+
+// Reset input for next check
+
+function resetForNext(button) { 
+
+  document.getElementById("result").innerHTML = "Enter another word or phrase!";
+
+  document.querySelector("input[type='submit']").disabled = false;
+
+  document.getElementById("userInput").focus();
+
+}
+
+// End the loop and showing closing message
+
+function exitLoop(button) {
+
+  document.getElementById("result").innerHTML =
+
+    "Thanks for using the Palindrome Checker! Refresh the page to start again.";
+
+  document.querySelector("input[type='submit']").disabled = true;
+
+
+}
+
 
     
