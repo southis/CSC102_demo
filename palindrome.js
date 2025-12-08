@@ -40,11 +40,11 @@ let normalized = input.replace(/\s+/g, '').toLowerCase();
 
   if (normalized === reversed) {
 
-    document.getElementById("result").innerHTML = '"${input}" is a palindrome. Hooray!;
+    document.getElementById("result").innerHTML = '"${input}" is a palindrome. Hooray`!;
 
   } else {
 
-    document.getElementById("result").innerHTML = '"${input}" is not a palindrome. Try again;
+    document.getElementById("result").innerHTML = '"${input}" is not a palindrome. Try again`;
 
   }
 
@@ -52,7 +52,7 @@ let normalized = input.replace(/\s+/g, '').toLowerCase();
 
   setTimeout(() => {
 
-    let tryAgain = prompt("Do you want to examine another word? (yes/no)".toLowerCase();
+    let tryAgain = prompt("Do you want to examine another word? (yes/no)").toLowerCase();
 
     if (tryAgain === "yes" || tryAgain === "y") {
 
