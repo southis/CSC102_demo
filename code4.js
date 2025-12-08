@@ -34,11 +34,11 @@ let normalized = input.replace(/\s+/g, '').toLowerCase();
 
   if (normalized === reversed) {
 
-   message = `"${input}" <strong>is/strong> a palindrome!`;
+   message = `"${input}" <strong>is</strong> a palindrome!`;
 
   } else {
 
-    message = `"${input}" <strong>is/strong> NOT</strong> a palindrome.`;
+    message = `"${input}" <strong>is NOT</strong> a palindrome.`;
 
   }
 
