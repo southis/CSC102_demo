@@ -26,53 +26,11 @@ Date: 12/07/2025
 
   <script src="code4.js" defer ></script>
 
-  <style>
-    
-    /* Fun background gradient */
-    
-    body {
-
-      background: linear-gradient(to right, #e0f7fa, #ffe0b2);
-
-    }
-
-    /* Custom font for checker */
-
-    h1 {
-
-      font-family: 'Courier New', Courier, monospace;
-
-      color: #8B0000;
-
-    }
-
-    #result {
-
-      font-weight: bold;
-
-      color:  #d84315;
-
-      text-align: center;
-
-      margin-top: 20px;
-
-    }
-
-    .image-center img {
-
-      max-width: 50%;
-
-      margin-top: 20px;
-
-    }
-         
-  </style>
-
-</head>
+  </head>
 
   <body>
 
-    <!-- Header -->
+ <!-- Header -->
 
     <header>
 
@@ -104,17 +62,17 @@ Date: 12/07/2025
 
       <h2>Check if the word or phrase is a palindrome!</h2>
 
-      <p>Enter a word or phrase and figure out if  it reads the same forward and backward.</p>
+      <p>Enter a word or phrase and figure out if it reads the same forward and backward.</p>
 
       <!-- Form for user input -->
 
-      <form onsubmit="return false;">
+      <form onsubmit="checkPalindrome(); return false;">
 
         <label for="userInput">Enter word or phrase:</label><br>
 
         <input type="text" id="userInput" required><br><br>
 
-        <input type="submit" value="Check Palindrome" onclick="checkPalindrome()">
+        <input type="submit" value="Check Palindrome">
 
       </form>
 
@@ -126,7 +84,7 @@ Date: 12/07/2025
 
       <div class="image-center">
 
-        <img src="palindrome-image.jpeg" alt="Palindrome Fun Image">
+        <img src="palindrome-image.jpeg" alt="Palindrome Image">
 
       </div>
 
