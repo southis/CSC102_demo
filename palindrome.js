@@ -44,7 +44,7 @@ let normalized = input.replace(/\s+/g, '').toLowerCase();
 
   setTimeout(() => {
 
-    let tryAgain = prompt("Do you want to examine another word? (yes/no)").toLowerCase();
+    let tryAgain = prompt("Do you want to examine another word? (yes/no)")?.toLowerCase();
 
     if (tryAgain === "yes" || tryAgain === "y") {
 
