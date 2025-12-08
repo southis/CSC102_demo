@@ -44,5 +44,5 @@ function validateInputs() {
     
     "Hooray, " + fullName + 
     
-    "! Here's the untold message: <strong>Cybersecurity is about positioning - trust no one verify everything!</strong>";
+    "! Here's the untold message: <strong>Cybersecurity is about positioning - never trust always verify!</strong>";
 }
