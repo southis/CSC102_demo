@@ -22,6 +22,14 @@ document.getElementById("startBtn").disabled = true;
 
 document.getElementById("stopBtn").disabled = false;
 
+  // Getting the Audio by its ID
+
+  let music = document.getElementById("backgroundMusic");
+
+  // Play the background sound
+
+  music.play();
+
 // Call the moveMeme every 200ms to animate movement
 
 moveInterval = setInterval(moveMeme, 200);
@@ -39,6 +47,14 @@ function stopMove() {
   // Stop the setInterval loop
 
   clearInterval(moveInterval);
+
+  // Getting the audio by its ID
+
+  let music = document.getElementById("backgroundMusic");
+
+  // Pause the background sound
+
+  music.pause();
 
   // Enable the Start again, disable Stop
 
